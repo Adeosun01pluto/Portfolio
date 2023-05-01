@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Bot from "./components/Bot";
 
-const App = () => {
+const PortfolioApp = () => {
   return (
     <div>
       <Navbar />
@@ -25,4 +25,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default PortfolioApp;
