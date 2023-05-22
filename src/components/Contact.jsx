@@ -3,7 +3,7 @@ import { AiFillAliwangwang, AiFillDingtalkCircle, AiFillMail } from "react-icons
 
 const Contact = () => {
   const contact_info = [
-    { logo: <AiFillMail />, text: "codeaprogram@gmail.com" },
+    { logo: <AiFillMail />, text: "adeosun01pluto@gmail.com" },
     { logo: <AiFillDingtalkCircle />, text: "123 456 780" },
     {
       logo: <AiFillAliwangwang />,
@@ -14,7 +14,7 @@ const Contact = () => {
     <section id="contact" className="py-10 px-3 text-white">
       <div className="text-center mt-8">
         <h3 className="text-4xl font-semibold text-[black]">
-          Contact <span className="text-cyan-600">Me</span>
+          Contact <span className="text-teal-700">Me</span>
         </h3>
         <p className="text-gray-400 mt-3 text-lg">Get in touch</p>
 
@@ -35,7 +35,7 @@ const Contact = () => {
                 className="flex flex-row  
                   text-left gap-4 flex-wrap items-center"
               >
-                <div className="min-w-[3.5rem]  text-3xl min-h-[3.5rem] flex items-center justify-center text-white bg-cyan-600 rounded-full">
+                <div className="min-w-[3.5rem]  text-3xl min-h-[3.5rem] flex items-center justify-center text-white bg-teal-700 rounded-full">
                   {contact.logo}
                 </div>
                 <p className="md:text-base text-sm  break-words">
