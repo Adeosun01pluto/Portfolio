@@ -1,6 +1,8 @@
 import React from "react";
 import hero from "../assets/images/hero.png";
-import { AiFillFacebook, AiFillGoogleSquare, AiFillInstagram, AiFillTwitterSquare } from "react-icons/ai";
+import {  AiFillGithub, AiFillLinkedin, } from "react-icons/ai";
+import { FcGoogle} from "react-icons/fc";
+import { GrTwitter} from "react-icons/gr";
 const Hero = () => {
 
   return (
@@ -27,10 +29,18 @@ const Hero = () => {
           </h4>
           <button className="btn-primary mt-8">Contact Me</button>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
-            <AiFillGoogleSquare size={35} color="#f5005f"/>
-            <AiFillTwitterSquare size={35}/>
-            <AiFillInstagram size={35}/>
-            <AiFillFacebook size={35}/>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
+              <FcGoogle size={35} color="#f5005f"/>
+            </a>
+            <a href="https://twitter.com/adeosun_pluto" target="_blank">
+              <GrTwitter size={35}/>
+            </a>
+            <a href="https://www.linkedin.com/in/adeosun-pluto-11489a24b/" target="_blank">
+              <AiFillLinkedin size={35}/>
+            </a>
+            <a href="https://github.com/Adeosun01pluto" target="_blank">
+              <AiFillGithub size={35}/>
+            </a>
             {/* className="text-gray-600 hover:text-white cursor-pointer " */}
           </div>
         </div>
