@@ -1,14 +1,11 @@
 import React from "react";
 import { AiFillAliwangwang, AiFillDingtalkCircle, AiFillMail } from "react-icons/ai";
+import { FiPhoneCall } from "react-icons/fi";
 
 const Contact = () => {
   const contact_info = [
     { logo: <AiFillMail />, text: "adeosun01pluto@gmail.com" },
-    { logo: <AiFillDingtalkCircle />, text: "123 456 780" },
-    {
-      logo: <AiFillAliwangwang />,
-      text: "demo location",
-    },
+    { logo: <FiPhoneCall />, text: "123 456 780" },
   ];
   return (
     <section id="contact" className="py-10 px-3 text-white">
