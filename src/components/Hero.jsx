@@ -30,13 +30,13 @@ const Hero = () => {
           <button className="btn-primary mt-8">Contact Me</button>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
-              <FcGoogle size={35} color="#f5005f"/>
+              <FcGoogle size={35} />
             </a>
             <a href="https://twitter.com/adeosun_pluto" target="_blank">
-              <GrTwitter size={35}/>
+              <GrTwitter size={35} color="#1DA1F2"/>
             </a>
             <a href="https://www.linkedin.com/in/adeosun-pluto-11489a24b/" target="_blank">
-              <AiFillLinkedin size={35}/>
+              <AiFillLinkedin size={35} color="#0072b1"/>
             </a>
             <a href="https://github.com/Adeosun01pluto" target="_blank">
               <AiFillGithub size={35}/>
