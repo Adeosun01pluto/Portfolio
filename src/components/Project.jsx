@@ -14,35 +14,22 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "Movie App",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://myreactflix.netlify.app",
+      name: "iScholar",
+      github_link: "https://github.com/Adeosun01pluto/i-scholar",
+      live_link: "https://ischolar-cfed0.web.app",
     },
     {
       img: project2,
-      name: "Job search Web App",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
-      live_link: "https://myjobsearch.netlify.app",
+      name: "Quranify",
+      github_link: "https://github.com/Adeosun01pluto/Quranify",
+      live_link: "https://quranifyanify.vercel.app",
     },
     {
       img: project3,
-      name: "Highking",
-      github_link: "https://github.com/Sridhar-C-25/highking",
-      live_link: "https://highking01.netlify.app",
-    },
-    {
-      img: project4,
-      name: "React Nav",
-      github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "https://reacttailwindnavbar.netlify.app",
-    },
-    {
-      img: project5,
-      name: "Vue Country",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://vuecountry05.netlify.app",
-    },
+      name: "Grow Data Hub",
+      github_link: "https://github.com/Adeosun01pluto/Grow-Data-Hub",
+      live_link: "/",
+    },  
   ];
   return (
     <section id="projects" className="py-10 text-white">
@@ -54,13 +41,13 @@ const Project = () => {
       </div>
       <br />
       <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
-        <div className="lg:w-2/3 w-full">
+        <div className="w-full">
           <Swiper
             slidesperview={1.2}
             spaceBetween={20}
             breakpoints={{
               768: {
-                slidesPerView: 2,
+                slidesPerView: 3,
               },
             }}
             loop={true}
@@ -98,9 +85,9 @@ const Project = () => {
             ))}
           </Swiper>
         </div>
-        <div className="lg:block hidden">
+        {/* <div className="lg:block hidden">
           <img src={project_person} alt="" />
-        </div>
+        </div> */}
       </div>
     </section>
   );

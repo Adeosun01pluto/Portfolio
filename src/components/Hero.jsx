@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "../assets/images/hero.png";
+import portfolio_pic from "../assets/images/portfolio_pic.png";
 import {  AiFillGithub, AiFillLinkedin, } from "react-icons/ai";
 import { FcGoogle} from "react-icons/fc";
 import { GrTwitter} from "react-icons/gr";
@@ -11,7 +12,7 @@ const Hero = () => {
       className="min-h-screen flex py-10 md:flex-row flex-col items-center"
     >
       <div className="flex-1 flex items-center justify-center h-full">
-        <img src={hero} alt="" className="md:w-11/12 h-full object-cover" />
+        <img src={portfolio_pic} alt="" className="md:w-[55%] w-[80%] mt-[10px] rounded-md h-full object-cover" />
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">

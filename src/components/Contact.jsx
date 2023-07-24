@@ -5,7 +5,7 @@ import { FiPhoneCall } from "react-icons/fi";
 const Contact = () => {
   const contact_info = [
     { logo: <AiFillMail />, text: "adeosun01pluto@gmail.com" },
-    { logo: <FiPhoneCall />, text: "123 456 780" },
+    { logo: <FiPhoneCall />, text: "0704 087 7605" },
   ];
   return (
     <section id="contact" className="py-10 px-3 text-white">

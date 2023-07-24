@@ -1,5 +1,5 @@
 import React from "react";
-import hireMe from "../assets/images/hireMe.png";
+import portfolio_pic from "../assets/images/hireMe.png";
 const Hireme = () => {
   return (
     <section id="hireme" className="py-10 px-3 text-white">
@@ -11,19 +11,19 @@ const Hireme = () => {
       </div>
       <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center">
         <div className="">
-          <h2 className="text-2xl font-semibold">
+          <h2 className="text-2xl md:text-3xl font-semibold">
             Do you want any work from me?
           </h2>
-          <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
+          <p className="lg:text-left text-justify max-w-lg text-sm md:text-md mt-4 text-gray-200 leading-6">
           If you have a project that requires a skilled front-end developer or if you're looking to expand your team with someone who is dedicated, detail-oriented, and passionate about creating exceptional user experiences, I would be thrilled to discuss how I can contribute.
           </p>
           <button className="btn-primary mt-10 bg-white text-teal-900 py-2 px-4 rounded-sm font-semibold">Say Hello</button>
         </div>
-        <img
-          src={hireMe}
+        {/* <img
+          src={portfolio_pic}
           alt=""
           className="lg:h-[32rem] h-80 lg:absolute bottom-0 -right-3 object-cover"
-        />
+        /> */}
       </div>
     </section>
   );
