@@ -3,9 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/project-1.png";
 import project2 from "../assets/images/project-2.jpg";
 import project3 from "../assets/images/project-3.jpg";
-import project4 from "../assets/images/project-4.jpg";
-import project5 from "../assets/images/project-5.png";
-import project_person from "../assets/images/project_person1.png";
+import quran from "../assets/images/quran.png";
+import tiktak from "../assets/images/tiktak.png";
+import coffee from "../assets/images/coffee.jpg";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -19,7 +19,7 @@ const Project = () => {
       live_link: "https://ischolar-cfed0.web.app",
     },
     {
-      img: project2,
+      img: quran,
       name: "Quranify",
       github_link: "https://github.com/Adeosun01pluto/Quranify",
       live_link: "https://quranifyanify.vercel.app",
@@ -29,6 +29,18 @@ const Project = () => {
       name: "Grow Data Hub",
       github_link: "https://github.com/Adeosun01pluto/Grow-Data-Hub",
       live_link: "/",
+    },  
+    {
+      img: coffee,
+      name: "Coffee Website ",
+      github_link: "https://github.com/Adeosun01pluto/",
+      live_link: "https://coffee-web-app.vercel.app",
+    },  
+    {
+      img: tiktak,
+      name: "Tik Tak Toe ",
+      github_link: "https://github.com/Adeosun01pluto/",
+      live_link: "https://tik-tak-toe-drab.vercel.app",
     },  
   ];
   return (
@@ -61,8 +73,10 @@ const Project = () => {
           >
             {projects.map((project_info, i) => (
               <SwiperSlide key={i}>
-                <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-                  <img src={project_info.img} alt="" className="rounded-lg" />
+                <div className="h-[300px] w-full p-4 bg-slate-700 rounded-xl">
+                  <div className="w-[100%] bg-white h-[150px]">
+                    <img src={project_info.img} alt="" className="w-[100%] object-contain h-full rounded-lg" />
+                  </div>
                   <h3 className="text-xl my-4">{project_info.name}</h3>
                   <div className="flex gap-3">
                     <a

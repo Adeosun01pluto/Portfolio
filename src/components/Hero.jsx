@@ -43,6 +43,7 @@ const Hero = () => {
               <AiFillGithub size={35}/>
             </a>
             {/* className="text-gray-600 hover:text-white cursor-pointer " */}
+          <button className="btn-primary mt-8 ">Download Resume</button>
           </div>
         </div>
       </div>
