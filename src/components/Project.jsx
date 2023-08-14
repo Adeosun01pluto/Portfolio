@@ -1,11 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/project-1.png";
-import project2 from "../assets/images/project-2.jpg";
-import project3 from "../assets/images/project-3.jpg";
+import project3 from "../assets/images/project-3.png";
 import quran from "../assets/images/quran.png";
 import tiktak from "../assets/images/tiktak.png";
-import coffee from "../assets/images/coffee.jpg";
+import coffee from "../assets/images/coffee.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -19,14 +18,14 @@ const Project = () => {
       live_link: "https://ischolar-cfed0.web.app",
     },
     {
-      img: quran,
-      name: "Quranify",
-      github_link: "https://github.com/Adeosun01pluto/Quranify",
-      live_link: "https://quranifyanify.vercel.app",
+      img: tiktak,
+      name: "Tik Tak Toe ",
+      github_link: "https://github.com/Adeosun01pluto/",
+      live_link: "https://tik-tak-toe-drab.vercel.app",
     },
     {
       img: project3,
-      name: "Grow Data Hub",
+      name: "Portfolio",
       github_link: "https://github.com/Adeosun01pluto/Grow-Data-Hub",
       live_link: "/",
     },  
@@ -35,13 +34,13 @@ const Project = () => {
       name: "Coffee Website ",
       github_link: "https://github.com/Adeosun01pluto/",
       live_link: "https://coffee-web-app.vercel.app",
-    },  
+    },    
     {
-      img: tiktak,
-      name: "Tik Tak Toe ",
-      github_link: "https://github.com/Adeosun01pluto/",
-      live_link: "https://tik-tak-toe-drab.vercel.app",
-    },  
+      img: quran,
+      name: "Quranify",
+      github_link: "https://github.com/Adeosun01pluto/Quranify",
+      live_link: "https://quranifyanify.vercel.app",
+    },
   ];
   return (
     <section id="projects" className="py-10 text-white">

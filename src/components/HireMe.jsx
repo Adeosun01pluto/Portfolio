@@ -2,7 +2,7 @@ import React from "react";
 import portfolio_pic from "../assets/images/hireMe.png";
 const Hireme = () => {
   return (
-    <section id="hireme" className="py-10 px-3 text-white">
+    <section id="hireme" className="py-7 px-3 text-white">
       <div className="text-center">
         <h3 className="text-4xl text-[black] font-semibold">
           Hire <span className="text-teal-700">Me</span>
@@ -17,7 +17,7 @@ const Hireme = () => {
           <p className="lg:text-left text-justify max-w-lg text-sm md:text-md mt-4 text-gray-200 leading-6">
           If you have a project that requires a skilled front-end developer or if you're looking to expand your team with someone who is dedicated, detail-oriented, and passionate about creating exceptional user experiences, I would be thrilled to discuss how I can contribute.
           </p>
-          <button className="btn-primary mt-10 bg-white text-teal-900 py-2 px-4 rounded-sm font-semibold">Say Hello</button>
+          <button className="btn-primary mt-10 bg-white text-teal-900 py-2 px-4 rounded-sm font-semibold"><a href="https://wa.link/kxys8p"> Say Hello</a></button>
         </div>
         {/* <img
           src={portfolio_pic}

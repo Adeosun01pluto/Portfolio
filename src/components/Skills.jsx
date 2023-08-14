@@ -49,7 +49,7 @@ const Skills = () => {
             >
               <div
                 style={{
-                  background: `conic-gradient(rgb(0, 121, 107)  ${skill.count}%,#ddd ${skill.count}%)`,
+                  background: `conic-gradient(rgb(0, 121, 107)  100%,#ddd 100%)`,
                 }}
                 className="w-32 h-32 flex items-center justify-center rounded-full"
               >
