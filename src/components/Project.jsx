@@ -1,13 +1,16 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/project-1.png";
-import project3 from "../assets/images/project-3.png";
-import quran from "../assets/images/quran.png";
-import tiktak from "../assets/images/tiktak.png";
 import coffee from "../assets/images/coffee.png";
+import echominds from "../assets/images/echominds.png";
+import coinbase from "../assets/images/coinbas.png";
+import tik from "../assets/images/tiktaktoe.png";
+import traveli from "../assets/images/traveli.png";
+import growdatahub from "../assets/images/growdatahub.png";
+import neumorphism from "../assets/images/neumorphism.png";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination, Autoplay } from "swiper";
+import { Pagination, Navigation } from "swiper";
 
 const Project = () => {
   const projects = [
@@ -18,29 +21,59 @@ const Project = () => {
       live_link: "https://ischolar-cfed0.web.app",
     },
     {
-      img: tiktak,
-      name: "Tik Tak Toe ",
-      github_link: "https://github.com/Adeosun01pluto/",
-      live_link: "https://tik-tak-toe-drab.vercel.app",
+      img: echominds,
+      name: "Echominds",
+      github_link: "https://github.com/Adeosun01pluto/EchoMind",
+      live_link: "https://echominds.com.ng/",
     },
     {
-      img: project3,
-      name: "Portfolio",
+      img: coinbase,
+      name: "Coinbase",
       github_link: "https://github.com/Adeosun01pluto/Grow-Data-Hub",
-      live_link: "/",
+      live_link: "https://coinbase-ruby.vercel.app",
     },  
     {
+      img: traveli,
+      name: "Traveli ",
+      github_link: "https://github.com/Adeosun01pluto/Travel-Web-App",
+      live_link: "https://travellers-rouge.vercel.app/",
+    },
+    {
+      img: tik,
+      name: "Tik Tak Toe ",
+      github_link: "https://github.com/Adeosun01pluto/Tik-Tak-Toe",
+      live_link: "https://tik-tak-toe-drab.vercel.app",
+    },
+    // {
+    //   img: project3,
+    //   name: "Portfolio",
+    //   github_link: "https://github.com/Adeosun01pluto/Grow-Data-Hub",
+    //   live_link: "/",
+    // },  
+    {
+      img: growdatahub,
+      name: "Grow Data Hub",
+      github_link: "https://github.com/Adeosun01pluto/Grow-Data-Hub",
+      live_link: "https://grow-data-hub.vercel.app",
+    },    
+    {
       img: coffee,
-      name: "Coffee Website ",
+      name: "HTML & CSS Coffee Website ",
       github_link: "https://github.com/Adeosun01pluto/",
       live_link: "https://coffee-web-app.vercel.app",
     },    
     {
-      img: quran,
-      name: "Quranify",
-      github_link: "https://github.com/Adeosun01pluto/Quranify",
-      live_link: "https://quranifyanify.vercel.app",
-    },
+      img: neumorphism,
+      name: "HTML & CSS Neumorphism ",
+      github_link: "https://github.com/Adeosun01pluto/Neumorphism",
+      live_link: "https://neumorphism-livid.vercel.app",
+    },    
+    // {
+    //   img: quran,
+    //   name: "Quranify",
+    //   github_link: "https://github.com/Adeosun01pluto/Quranify",
+    //   live_link: "https://quranifyanify.vercel.app",
+    // },
   ];
   return (
     <section id="projects" className="py-10 text-white">
@@ -61,14 +94,14 @@ const Project = () => {
                 slidesPerView: 3,
               },
             }}
-            loop={true}
+            navigation={true}
             autoplay={{
               delay: 3000,
             }}
             pagination={{
               clickable: true,
             }}
-            modules={[Pagination, Autoplay]}
+            modules={[Pagination, Navigation]}
           >
             {projects.map((project_info, i) => (
               <SwiperSlide key={i}>
